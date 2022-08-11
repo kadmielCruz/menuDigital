@@ -91,5 +91,11 @@
     font-size: 14px;
     line-height: 21px;
   }
+
+.autor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
   
