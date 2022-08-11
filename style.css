@@ -92,6 +92,9 @@
     line-height: 21px;
   }
 
+.description,strong{
+color:#fff;
+}
 .autor{
     display: flex;
     align-items: center;
