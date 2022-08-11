@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+   /* background-color: #f9d5ef;*/
+   background:  rgba(0, 0, 0, 0.3)url(https://images.pexels.com/photos/7218638/pexels-photo-7218638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode: darken;
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  /* FONTS */
+  h1,h2,h3,.price{
+    font-family: 'Roboto Serif', serif;
+    text-transform: uppercase;
+    color: #2D2C2A;
+  }
+  
+  /*HEADER*/
+  header{
+    padding: 32px 0;
+    text-align: center;
+  }
+  
+  
+  
+  header,
+  section{
+    max-width:300px;
+    margin: 0 auto;
+    
+  }
+  header h1{
+    margin-bottom: 4px;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  
+  header h1 span{
+    color: #993399;
+  }
+  
+  header p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 0.5px;
+    color: rgba(0, 0, 0, 0.9);
+  }
+  
+  
+  /* SECTION*/
+  
+  section{
+    margin-bottom: 24px;
+  }
+  
+  section h2{
+    background-color: #993399;
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  /* LISTA */
+  ul li{
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  li .details {
+    max-width:240px;
+  }
+  
+  .details h3{
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .details p{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+  
